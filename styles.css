@@ -1,7 +1,35 @@
-p{
+head{
   background-color:red;
+}
+.navigationbar {
+  list-style-type: none;
+  margin-left: 60px;
+  margin-right: 60px;
+  padding: 0;
+  overflow: hidden;
+  background-color: #f5f5f5;
+  box-shadow: 1px 1px 7px 1px black;
+}
+
+.menu {
+  float:left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.hello:hover {
+  background-color: #bdbbbb;
 }
 
 body{
-  background-color:blue;
+  background-image: url('bg.jpg');
+  height:500px;
 }
+
+.logo{
+  padding-left:500px;
+}
+
